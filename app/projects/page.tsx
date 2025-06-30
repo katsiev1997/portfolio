@@ -25,7 +25,7 @@ export default function ProjectsPage() {
 			description: "AI animal's health scanner",
 			image: "/haiscan.png?height=300&width=500",
 			tags: ["Next.js", "Tailwind CSS", "Stripe", "MongoDB"],
-			demoLink: "https://example.com",
+			demoLink: "https://haiscan.com",
 			codeLink: "https://github.com",
 		},
 		{
@@ -33,7 +33,7 @@ export default function ProjectsPage() {
 			description: "IT STAND — a community of IT specialists",
 			image: "/it-stand.png?height=300&width=500",
 			tags: ["React", "Node.js", "Socket.io", "PostgreSQL"],
-			demoLink: "https://example.com",
+			demoLink: "https://itstand.org",
 			codeLink: "https://github.com",
 		},
 		{
@@ -42,33 +42,25 @@ export default function ProjectsPage() {
 			image: "/lingo.png?height=300&width=500",
 			tags: ["Next.js", "Tailwind CSS", "Stripe", "PostgreSQL"],
 			demoLink: "https://lingo-self.vercel.app",
-			codeLink: "https://github.com",
+			codeLink: "https://github.com/katsiev1997/lingo",
 		},
 		{
 			title: "IHSAN",
-			description: "Charity Fund of the Republic of Ingushetia 'IHSAN' (SINCERITY)",
+			description:
+				"Charity Fund of the Republic of Ingushetia 'IHSAN' (SINCERITY)",
 			image: "/ihsan.png?height=300&width=500",
 			tags: ["Next.js", "GraphQL", "MongoDB", "AWS S3"],
 			demoLink: "https://ihsan-theta.vercel.app/",
-			codeLink: "https://github.com",
+			codeLink: "https://github.com/katsiev1997/ihsan",
 		},
 		{
-			title: "Portfolio Website",
+			title: "Finance platform",
 			description:
 				"A personal portfolio website built with Next.js, Tailwind CSS, and Framer Motion.",
-			image: "/placeholder.svg?height=300&width=500",
+			image: "/finance.png?height=300&width=500",
 			tags: ["Next.js", "Tailwind CSS", "Framer Motion"],
-			demoLink: "https://example.com",
-			codeLink: "https://github.com",
-		},
-		{
-			title: "Recipe App",
-			description:
-				"A recipe application that allows users to search, save, and share recipes.",
-			image: "/placeholder.svg?height=300&width=500",
-			tags: ["React", "Firebase", "Tailwind CSS"],
-			demoLink: "https://example.com",
-			codeLink: "https://github.com",
+			demoLink: "https://finance-tutorial-black.vercel.app/",
+			codeLink: "https://github.com/katsiev1997/finance-tutorial",
 		},
 	];
 
@@ -82,7 +74,9 @@ export default function ProjectsPage() {
 			>
 				<motion.div variants={item} className="text-center space-y-4">
 					<h1 className="text-4xl font-bold tracking-tighter">My Projects</h1>
-					<p className="text-xl text-muted-foreground">A showcase of my recent work</p>
+					<p className="text-xl text-muted-foreground">
+						A showcase of my recent work
+					</p>
 				</motion.div>
 
 				<motion.div
